@@ -14,19 +14,52 @@
     <OtherTag ID="BT2" LABEL="Main" DESCRIPTION="Main"/>
     <OtherTag ID="BT103" LABEL="Margin" DESCRIPTION="Margin"/>
     <OtherTag ID="BT104" LABEL="Paratext" DESCRIPTION="Paratext"/>
-    <OtherTag ID="ro_0" LABEL="Order marking marginalia as separate items and disconnecting main and paratext."/>
+    <OtherTag ID="ro_0" LABEL="Order inserting marginalia and paratext at their proper position in the main text."/>
+    <OtherTag ID="ro_1" LABEL="Order separating marginalia and paratext from the main text."/>
   </Tags>
   <ReadingOrder>
-    <UnorderedGroup ID="ug_0" TAGREFS="ro_0">
-      <OrderedGroup ID="og_0" TAGREFS="BT2">
+    <UnorderedGroup ID="ug_0">
+      <OrderedGroup ID="og_0" TAGREFS="ro_0">
         <ElementRef ID="o_0" REF="eSc_line_192895"/>
-        <ElementRef ID="o_1" REF="eSc_line_192874"/>
+        <ElementRef ID="o_str_0" REF="eSc_string_0"/>
+        <ElementRef ID="o_str_1" REF="eSc_string_1"/>
+        <ElementRef ID="o_str_2" REF="eSc_string_2"/>
+        <ElementRef ID="o_str_3" REF="eSc_string_3"/>
+        <ElementRef ID="o_str_4" REF="eSc_string_4"/>
+        <ElementRef ID="o_str_5" REF="eSc_string_5"/>
+        <ElementRef ID="o_26" REF="eSc_textblock_11226" TAGREFS="BT104"/>
+        <ElementRef ID="o_str_6" REF="eSc_string_6"/>
+        <ElementRef ID="o_str_7" REF="eSc_string_7"/>
+        <ElementRef ID="o_str_8" REF="eSc_string_8"/>
+        <ElementRef ID="o_str_9" REF="eSc_string_9"/>
+        <ElementRef ID="o_str_10" REF="eSc_string_10"/>
+        <ElementRef ID="o_str_11" REF="eSc_string_11"/>
+        <ElementRef ID="o_str_12" REF="eSc_string_12"/>
+        <ElementRef ID="o_str_13" REF="eSc_string_13"/>
         <ElementRef ID="o_2" REF="eSc_line_192896"/>
         <ElementRef ID="o_3" REF="eSc_line_192897"/>
         <ElementRef ID="o_4" REF="eSc_line_192876"/>
         <ElementRef ID="o_5" REF="eSc_line_192877"/>
         <ElementRef ID="o_6" REF="eSc_line_192878"/>
         <ElementRef ID="o_7" REF="eSc_line_192879"/>
+        <ElementRef ID="o_str_14" REF="eSc_string_14"/>
+        <ElementRef ID="o_str_15" REF="eSc_string_15"/>
+        <ElementRef ID="o_str_16" REF="eSc_string_16"/>
+        <ElementRef ID="o_str_17" REF="eSc_string_17"/>
+        <ElementRef ID="o_27" REF="eSc_textblock_11227" TAGREFS="BT104"/>
+        <ElementRef ID="o_str_18" REF="eSc_string_18"/>
+        <ElementRef ID="o_str_19" REF="eSc_string_19"/>
+        <ElementRef ID="o_str_20" REF="eSc_string_20"/>
+        <ElementRef ID="o_str_21" REF="eSc_string_21"/>
+        <ElementRef ID="o_str_22" REF="eSc_string_22"/>
+        <ElementRef ID="o_str_23" REF="eSc_string_23"/>
+        <ElementRef ID="o_str_24" REF="eSc_string_24"/>
+        <ElementRef ID="o_str_25" REF="eSc_string_25"/>
+        <ElementRef ID="o_str_26" REF="eSc_string_26"/>
+        <ElementRef ID="o_str_27" REF="eSc_string_27"/>
+        <ElementRef ID="o_str_28" REF="eSc_string_28"/>
+        <ElementRef ID="o_str_29" REF="eSc_string_29"/>
+        <ElementRef ID="o_str_30" REF="eSc_string_30"/>
         <ElementRef ID="o_8" REF="eSc_line_192880"/>
         <ElementRef ID="o_9" REF="eSc_line_192881"/>
         <ElementRef ID="o_10" REF="eSc_line_192898"/>
@@ -39,17 +72,77 @@
         <ElementRef ID="o_17" REF="eSc_line_192887"/>
         <ElementRef ID="o_18" REF="eSc_line_192888"/>
         <ElementRef ID="o_19" REF="eSc_line_192889"/>
+        <ElementRef ID="o_str_31" REF="eSc_string_31"/>
+        <ElementRef ID="o_str_32" REF="eSc_string_32"/>
+        <ElementRef ID="o_str_33" REF="eSc_string_33"/>
+        <ElementRef ID="o_str_34" REF="eSc_string_34"/>
+        <ElementRef ID="o_str_35" REF="eSc_string_35"/>
+        <ElementRef ID="o_28" REF="eSc_textblock_11228" TAGREFS="BT104"/>
+        <ElementRef ID="o_str_36" REF="eSc_string_36"/>
+        <ElementRef ID="o_str_37" REF="eSc_string_37"/>
+        <ElementRef ID="o_str_38" REF="eSc_string_38"/>
+        <ElementRef ID="o_str_39" REF="eSc_string_39"/>
+        <ElementRef ID="o_str_40" REF="eSc_string_40"/>
+        <ElementRef ID="o_str_41" REF="eSc_string_41"/>
+        <ElementRef ID="o_str_42" REF="eSc_string_42"/>
+        <ElementRef ID="o_str_43" REF="eSc_string_43"/>
+        <ElementRef ID="o_str_44" REF="eSc_string_44"/>
         <ElementRef ID="o_20" REF="eSc_line_192890"/>
         <ElementRef ID="o_21" REF="eSc_line_192871"/>
         <ElementRef ID="o_22" REF="eSc_line_192870"/>
         <ElementRef ID="o_23" REF="eSc_line_192869"/>
+        <ElementRef ID="o_str_45" REF="eSc_string_45"/>
+        <ElementRef ID="o_str_46" REF="eSc_string_46"/>
+        <ElementRef ID="o_str_47" REF="eSc_string_47"/>
+        <ElementRef ID="o_str_48" REF="eSc_string_48"/>
+        <ElementRef ID="o_29" REF="eSc_line_192872" TAGREFS="BT103"/>
+        <ElementRef ID="o_str_49" REF="eSc_string_49"/>
+        <ElementRef ID="o_str_50" REF="eSc_string_50"/>
+        <ElementRef ID="o_str_51" REF="eSc_string_51"/>
+        <ElementRef ID="o_str_52" REF="eSc_string_52"/>
+        <ElementRef ID="o_str_53" REF="eSc_string_53"/>
+        <ElementRef ID="o_str_54" REF="eSc_string_54"/>
+        <ElementRef ID="o_str_55" REF="eSc_string_55"/>
+        <ElementRef ID="o_str_56" REF="eSc_string_56"/>
+        <ElementRef ID="o_str_57" REF="eSc_string_57"/>
+        <ElementRef ID="o_str_58" REF="eSc_string_58"/>
         <ElementRef ID="o_24" REF="eSc_line_192873"/>
         <ElementRef ID="o_25" REF="eSc_line_192875"/>
       </OrderedGroup>
-      <ElementRef ID="o_26" REF="eSc_textblock_11226" TAGREFS="BT104"/>
-      <ElementRef ID="o_27" REF="eSc_textblock_11227" TAGREFS="BT104"/>
-      <ElementRef ID="o_28" REF="eSc_textblock_11228" TAGREFS="BT104"/>
-      <ElementRef ID="o_29" REF="eSc_line_192872" TAGREFS="BT103"/>
+      <UnorderedGroup ID="ug_1" TAGREFS="ro_1">
+        <OrderedGroup ID="og_1" TAGREFS="BT2">
+          <ElementRef ID="uo_0" REF="eSc_line_192895"/>
+          <ElementRef ID="uo_1" REF="eSc_line_192874"/>
+          <ElementRef ID="uo_2" REF="eSc_line_192896"/>
+          <ElementRef ID="uo_3" REF="eSc_line_192897"/>
+          <ElementRef ID="uo_4" REF="eSc_line_192876"/>
+          <ElementRef ID="uo_5" REF="eSc_line_192877"/>
+          <ElementRef ID="uo_6" REF="eSc_line_192878"/>
+          <ElementRef ID="uo_7" REF="eSc_line_192879"/>
+          <ElementRef ID="uo_8" REF="eSc_line_192880"/>
+          <ElementRef ID="uo_9" REF="eSc_line_192881"/>
+          <ElementRef ID="uo_10" REF="eSc_line_192898"/>
+          <ElementRef ID="uo_11" REF="eSc_line_192882"/>
+          <ElementRef ID="uo_12" REF="eSc_line_192883"/>
+          <ElementRef ID="uo_13" REF="eSc_line_192899"/>
+          <ElementRef ID="uo_14" REF="eSc_line_192884"/>
+          <ElementRef ID="uo_15" REF="eSc_line_192885"/>
+          <ElementRef ID="uo_16" REF="eSc_line_192886"/>
+          <ElementRef ID="uo_17" REF="eSc_line_192887"/>
+          <ElementRef ID="uo_18" REF="eSc_line_192888"/>
+          <ElementRef ID="uo_19" REF="eSc_line_192889"/>
+          <ElementRef ID="uo_20" REF="eSc_line_192890"/>
+          <ElementRef ID="uo_21" REF="eSc_line_192871"/>
+          <ElementRef ID="uo_22" REF="eSc_line_192870"/>
+          <ElementRef ID="uo_23" REF="eSc_line_192869"/>
+          <ElementRef ID="uo_24" REF="eSc_line_192873"/>
+          <ElementRef ID="uo_25" REF="eSc_line_192875"/>
+        </OrderedGroup>
+        <ElementRef ID="uo_26" REF="eSc_textblock_11226" TAGREFS="BT104"/>
+        <ElementRef ID="uo_27" REF="eSc_textblock_11227" TAGREFS="BT104"/>
+        <ElementRef ID="uo_28" REF="eSc_textblock_11228" TAGREFS="BT104"/>
+        <ElementRef ID="uo_29" REF="eSc_line_192872" TAGREFS="BT103"/>
+      </UnorderedGroup>
     </UnorderedGroup>
   </ReadingOrder>
   <Layout>
@@ -96,7 +189,86 @@
                     WIDTH="1872.0"
                     HEIGHT="148.0">
             <Shape><Polygon POINTS="848 771 905 710 945 746 981 710 1017 746 1067 735 1124 761 1225 750 1247 771 1322 746 1362 768 1520 753 1653 768 1717 735 1761 768 1796 753 1890 768 1915 746 1969 764 2001 743 2034 761 2181 768 2217 753 2235 768 2350 743 2389 761 2440 732 2486 764 2526 750 2605 757 2637 739 2720 779 2709 811 2634 854 2555 825 2537 843 2458 850 2433 832 2379 847 2321 832 2300 850 2174 843 2123 858 2066 832 2030 858 1998 836 1929 843 1908 822 1876 843 1732 836 1653 850 1628 847 1581 800 1491 858 1451 840 1347 836 1333 822 1290 858 1265 858 1236 840 1157 847 1117 829 1088 847 973 825 905 840 866 800 855 807"/></Shape>
-	    <String CONTENT="צלמות וגו&#39; ˙ אלא אמ&#39; יונה ← אלך לי חוצה לארץ מקום שאין השכינה נגלית"
+            <String CONTENT="צלמות"
+                    ID="eSc_string_0"
+                    HPOS="848.0"
+                    VPOS="710.0"
+                    WIDTH="1872.0"
+                    HEIGHT="148.0"></String>
+            <String CONTENT="וגו&#39;"
+                    ID="eSc_string_1"
+                    HPOS="848.0"
+                    VPOS="710.0"
+                    WIDTH="1872.0"
+                    HEIGHT="148.0"></String>
+            <String CONTENT="˙"
+                    ID="eSc_string_2"
+                    HPOS="848.0"
+                    VPOS="710.0"
+                    WIDTH="1872.0"
+                    HEIGHT="148.0"></String>
+            <String CONTENT="אלא"
+                    ID="eSc_string_3"
+                    HPOS="848.0"
+                    VPOS="710.0"
+                    WIDTH="1872.0"
+                    HEIGHT="148.0"></String>
+            <String CONTENT="אמ&#39;"
+                    ID="eSc_string_4"
+                    HPOS="848.0"
+                    VPOS="710.0"
+                    WIDTH="1872.0"
+                    HEIGHT="148.0"></String>
+            <String CONTENT="יונה"
+                    ID="eSc_string_5"
+                    HPOS="848.0"
+                    VPOS="710.0"
+                    WIDTH="1872.0"
+                    HEIGHT="148.0"></String>
+            <String CONTENT="אלך"
+                    ID="eSc_string_6"
+                    HPOS="848.0"
+                    VPOS="710.0"
+                    WIDTH="1872.0"
+                    HEIGHT="148.0"></String>
+            <String CONTENT="לי"
+                    ID="eSc_string_7"
+                    HPOS="848.0"
+                    VPOS="710.0"
+                    WIDTH="1872.0"
+                    HEIGHT="148.0"></String>
+            <String CONTENT="חוצה"
+                    ID="eSc_string_8"
+                    HPOS="848.0"
+                    VPOS="710.0"
+                    WIDTH="1872.0"
+                    HEIGHT="148.0"></String>
+            <String CONTENT="לארץ"
+                    ID="eSc_string_9"
+                    HPOS="848.0"
+                    VPOS="710.0"
+                    WIDTH="1872.0"
+                    HEIGHT="148.0"></String>
+            <String CONTENT="מקום"
+                    ID="eSc_string_10"
+                    HPOS="848.0"
+                    VPOS="710.0"
+                    WIDTH="1872.0"
+                    HEIGHT="148.0"></String>
+            <String CONTENT="שאין"
+                    ID="eSc_string_11"
+                    HPOS="848.0"
+                    VPOS="710.0"
+                    WIDTH="1872.0"
+                    HEIGHT="148.0"></String>
+            <String CONTENT="השכינה"
+                    ID="eSc_string_12"
+                    HPOS="848.0"
+                    VPOS="710.0"
+                    WIDTH="1872.0"
+                    HEIGHT="148.0"></String>
+            <String CONTENT="נגלית"
+                    ID="eSc_string_13"
                     HPOS="848.0"
                     VPOS="710.0"
                     WIDTH="1872.0"
@@ -198,7 +370,104 @@
                     WIDTH="1930.0"
                     HEIGHT="132.0">
             <Shape><Polygon POINTS="801 1367 930 1328 991 1346 1056 1331 1088 1349 1146 1328 1225 1349 1243 1335 1344 1331 1405 1349 1462 1331 1491 1357 1530 1339 1584 1339 1617 1357 1638 1335 1822 1342 1976 1328 2062 1346 2127 1328 2163 1360 2185 1339 2210 1360 2307 1331 2350 1349 2386 1324 2422 1346 2530 1331 2566 1349 2605 1324 2641 1339 2659 1321 2731 1367 2720 1403 2663 1443 2609 1425 2526 1446 2497 1428 2472 1446 2429 1425 2397 1446 2350 1428 2285 1439 2249 1421 2185 1436 1865 1439 1786 1425 1581 1453 1552 1436 1308 1443 1268 1425 1214 1446 1196 1432 1067 1428 1038 1450 1006 1425 880 1428 808 1371"/></Shape>
-	    <String CONTENT="וגו&#39; ˙ נמצאתה אמ&#39; ← ˙ שלושה בנים הם ˙ אחד תבע כבוד האב וכבוד הבן ˙ ואחד"
+            <String CONTENT="וגו&#39;"
+                    ID="eSc_string_14"
+                    HPOS="801.0"
+                    VPOS="1321.0"
+                    WIDTH="1930.0"
+                    HEIGHT="132.0"></String>
+            <String CONTENT="˙"
+                    ID="eSc_string_15"
+                    HPOS="801.0"
+                    VPOS="1321.0"
+                    WIDTH="1930.0"
+                    HEIGHT="132.0"></String>
+            <String CONTENT="נמצאתה"
+                    ID="eSc_string_16"
+                    HPOS="801.0"
+                    VPOS="1321.0"
+                    WIDTH="1930.0"
+                    HEIGHT="132.0"></String>
+            <String CONTENT="אמ&#39;"
+                    ID="eSc_string_17"
+                    HPOS="801.0"
+                    VPOS="1321.0"
+                    WIDTH="1930.0"
+                    HEIGHT="132.0"></String>
+            <String CONTENT="˙"
+                    ID="eSc_string_18"
+                    HPOS="801.0"
+                    VPOS="1321.0"
+                    WIDTH="1930.0"
+                    HEIGHT="132.0"></String>
+            <String CONTENT="שלושה"
+                    ID="eSc_string_19"
+                    HPOS="801.0"
+                    VPOS="1321.0"
+                    WIDTH="1930.0"
+                    HEIGHT="132.0"></String>
+            <String CONTENT="בנים"
+                    ID="eSc_string_20"
+                    HPOS="801.0"
+                    VPOS="1321.0"
+                    WIDTH="1930.0"
+                    HEIGHT="132.0"></String>
+            <String CONTENT="הם"
+                    ID="eSc_string_21"
+                    HPOS="801.0"
+                    VPOS="1321.0"
+                    WIDTH="1930.0"
+                    HEIGHT="132.0"></String>
+            <String CONTENT="˙"
+                    ID="eSc_string_22"
+                    HPOS="801.0"
+                    VPOS="1321.0"
+                    WIDTH="1930.0"
+                    HEIGHT="132.0"></String>
+            <String CONTENT="אחד"
+                    ID="eSc_string_23"
+                    HPOS="801.0"
+                    VPOS="1321.0"
+                    WIDTH="1930.0"
+                    HEIGHT="132.0"></String>
+            <String CONTENT="תבע"
+                    ID="eSc_string_24"
+                    HPOS="801.0"
+                    VPOS="1321.0"
+                    WIDTH="1930.0"
+                    HEIGHT="132.0"></String>
+            <String CONTENT="כבוד"
+                    ID="eSc_string_25"
+                    HPOS="801.0"
+                    VPOS="1321.0"
+                    WIDTH="1930.0"
+                    HEIGHT="132.0"></String>
+            <String CONTENT="האב"
+                    ID="eSc_string_26"
+                    HPOS="801.0"
+                    VPOS="1321.0"
+                    WIDTH="1930.0"
+                    HEIGHT="132.0"></String>
+            <String CONTENT="וכבוד"
+                    ID="eSc_string_27"
+                    HPOS="801.0"
+                    VPOS="1321.0"
+                    WIDTH="1930.0"
+                    HEIGHT="132.0"></String>
+            <String CONTENT="הבן"
+                    ID="eSc_string_28"
+                    HPOS="801.0"
+                    VPOS="1321.0"
+                    WIDTH="1930.0"
+                    HEIGHT="132.0"></String>
+            <String CONTENT="˙"
+                    ID="eSc_string_29"
+                    HPOS="801.0"
+                    VPOS="1321.0"
+                    WIDTH="1930.0"
+                    HEIGHT="132.0"></String>
+            <String CONTENT="ואחד"
+                    ID="eSc_string_30"
                     HPOS="801.0"
                     VPOS="1321.0"
                     WIDTH="1930.0"
@@ -402,7 +671,86 @@
                     WIDTH="1904.0"
                     HEIGHT="129.0">
             <Shape><Polygon POINTS="805 2538 851 2477 1002 2495 1020 2513 1056 2498 1099 2516 1153 2495 1200 2513 1250 2477 1311 2505 1444 2495 1469 2513 1527 2495 1581 2516 1606 2498 1721 2502 1753 2477 1800 2523 1850 2527 1868 2509 1890 2520 1919 2491 2001 2509 2034 2477 2116 2513 2199 2502 2217 2484 2260 2491 2274 2477 2336 2502 2429 2502 2540 2477 2594 2495 2699 2473 2709 2516 2702 2545 2652 2577 2440 2566 2411 2584 2375 2570 2289 2595 2195 2581 2149 2599 2109 2588 2098 2602 1955 2588 1940 2574 1890 2588 1861 2563 1829 2584 1782 2574 1761 2591 1732 2570 1703 2595 1588 2574 1520 2595 1430 2581 1390 2595 1369 2577 1329 2588 1283 2570 1229 2591 1157 2584 1121 2599 1053 2591 1035 2574 988 2588 920 2570 869 2584 819 2538"/></Shape>
-	    <String CONTENT="והנביאים נותני&#39; נפשם על ישר&#39; ← ˙ לאמר צא ואמור להם מיד ˙ דברי ר&#39;"
+            <String CONTENT="והנביאים"
+                    ID="eSc_string_31"
+                    HPOS="805.0"
+                    VPOS="2473.0"
+                    WIDTH="1904.0"
+                    HEIGHT="129.0"></String>
+            <String CONTENT="נותני&#39;"
+                    ID="eSc_string_32"
+                    HPOS="805.0"
+                    VPOS="2473.0"
+                    WIDTH="1904.0"
+                    HEIGHT="129.0"></String>
+            <String CONTENT="נפשם"
+                    ID="eSc_string_33"
+                    HPOS="805.0"
+                    VPOS="2473.0"
+                    WIDTH="1904.0"
+                    HEIGHT="129.0"></String>
+            <String CONTENT="על"
+                    ID="eSc_string_34"
+                    HPOS="805.0"
+                    VPOS="2473.0"
+                    WIDTH="1904.0"
+                    HEIGHT="129.0"></String>
+            <String CONTENT="ישר&#39;"
+                    ID="eSc_string_35"
+                    HPOS="805.0"
+                    VPOS="2473.0"
+                    WIDTH="1904.0"
+                    HEIGHT="129.0"></String>
+            <String CONTENT="˙"
+                    ID="eSc_string_36"
+                    HPOS="805.0"
+                    VPOS="2473.0"
+                    WIDTH="1904.0"
+                    HEIGHT="129.0"></String>
+            <String CONTENT="לאמר"
+                    ID="eSc_string_37"
+                    HPOS="805.0"
+                    VPOS="2473.0"
+                    WIDTH="1904.0"
+                    HEIGHT="129.0"></String>
+            <String CONTENT="צא"
+                    ID="eSc_string_38"
+                    HPOS="805.0"
+                    VPOS="2473.0"
+                    WIDTH="1904.0"
+                    HEIGHT="129.0"></String>
+            <String CONTENT="ואמור"
+                    ID="eSc_string_39"
+                    HPOS="805.0"
+                    VPOS="2473.0"
+                    WIDTH="1904.0"
+                    HEIGHT="129.0"></String>
+            <String CONTENT="להם"
+                    ID="eSc_string_40"
+                    HPOS="805.0"
+                    VPOS="2473.0"
+                    WIDTH="1904.0"
+                    HEIGHT="129.0"></String>
+            <String CONTENT="מיד"
+                    ID="eSc_string_41"
+                    HPOS="805.0"
+                    VPOS="2473.0"
+                    WIDTH="1904.0"
+                    HEIGHT="129.0"></String>
+            <String CONTENT="˙"
+                    ID="eSc_string_42"
+                    HPOS="805.0"
+                    VPOS="2473.0"
+                    WIDTH="1904.0"
+                    HEIGHT="129.0"></String>
+            <String CONTENT="דברי"
+                    ID="eSc_string_43"
+                    HPOS="805.0"
+                    VPOS="2473.0"
+                    WIDTH="1904.0"
+                    HEIGHT="129.0"></String>
+            <String CONTENT="ר&#39;"
+                    ID="eSc_string_44"
                     HPOS="805.0"
                     VPOS="2473.0"
                     WIDTH="1904.0"
@@ -470,7 +818,86 @@
                     WIDTH="1908.0"
                     HEIGHT="161.0">
             <Shape><Polygon POINTS="776 2922 848 2882 884 2900 930 2868 977 2889 995 2882 1020 2907 1085 2907 1106 2889 1128 2911 1185 2886 1211 2911 1247 2915 1290 2872 1322 2900 1347 2886 1372 2907 1541 2897 1584 2875 1660 2904 1674 2889 1753 2893 1804 2868 1840 2893 1868 2879 1890 2897 1976 2900 1994 2886 2012 2900 2048 2879 2120 2897 2145 2872 2199 2864 2238 2882 2285 2850 2328 2889 2364 2889 2379 2872 2415 2886 2436 2872 2530 2882 2584 2843 2619 2879 2673 2861 2684 2907 2670 2950 2598 2972 2580 2954 2537 2968 2494 2958 2465 2983 2411 2936 2357 2986 2314 2983 2289 2961 2242 2983 2206 2961 2188 2979 2145 2972 2102 3001 2070 2968 2001 2968 1962 2986 1933 2961 1890 3004 1854 2972 1789 2994 1703 2976 1502 2994 1462 2976 1441 2997 1415 2983 1362 3004 1333 2983 1308 3004 1243 2986 1207 3004 1121 2976 1096 3001 1063 3001 1042 2979 858 2983 787 2925"/></Shape>
-	    <String CONTENT="שליחיהם ˙ אבל [שלוחיך] ← אינו כן אלא התשלח ברקים וילכו וגו&#39; ˙ וישובו לא"
+            <String CONTENT="שליחיהם"
+                    ID="eSc_string_45"
+                    HPOS="776.0"
+                    VPOS="2843.0"
+                    WIDTH="1908.0"
+                    HEIGHT="161.0"></String>
+            <String CONTENT="˙"
+                    ID="eSc_string_46"
+                    HPOS="776.0"
+                    VPOS="2843.0"
+                    WIDTH="1908.0"
+                    HEIGHT="161.0"></String>
+            <String CONTENT="אבל"
+                    ID="eSc_string_47"
+                    HPOS="776.0"
+                    VPOS="2843.0"
+                    WIDTH="1908.0"
+                    HEIGHT="161.0"></String>
+            <String CONTENT="[שלוחיך]"
+                    ID="eSc_string_48"
+                    HPOS="776.0"
+                    VPOS="2843.0"
+                    WIDTH="1908.0"
+                    HEIGHT="161.0"></String>
+            <String CONTENT="אינו"
+                    ID="eSc_string_49"
+                    HPOS="776.0"
+                    VPOS="2843.0"
+                    WIDTH="1908.0"
+                    HEIGHT="161.0"></String>
+            <String CONTENT="כן"
+                    ID="eSc_string_50"
+                    HPOS="776.0"
+                    VPOS="2843.0"
+                    WIDTH="1908.0"
+                    HEIGHT="161.0"></String>
+            <String CONTENT="אלא"
+                    ID="eSc_string_51"
+                    HPOS="776.0"
+                    VPOS="2843.0"
+                    WIDTH="1908.0"
+                    HEIGHT="161.0"></String>
+            <String CONTENT="התשלח"
+                    ID="eSc_string_52"
+                    HPOS="776.0"
+                    VPOS="2843.0"
+                    WIDTH="1908.0"
+                    HEIGHT="161.0"></String>
+            <String CONTENT="ברקים"
+                    ID="eSc_string_53"
+                    HPOS="776.0"
+                    VPOS="2843.0"
+                    WIDTH="1908.0"
+                    HEIGHT="161.0"></String>
+            <String CONTENT="וילכו"
+                    ID="eSc_string_54"
+                    HPOS="776.0"
+                    VPOS="2843.0"
+                    WIDTH="1908.0"
+                    HEIGHT="161.0"></String>
+            <String CONTENT="וגו&#39;"
+                    ID="eSc_string_55"
+                    HPOS="776.0"
+                    VPOS="2843.0"
+                    WIDTH="1908.0"
+                    HEIGHT="161.0"></String>
+            <String CONTENT="˙"
+                    ID="eSc_string_56"
+                    HPOS="776.0"
+                    VPOS="2843.0"
+                    WIDTH="1908.0"
+                    HEIGHT="161.0"></String>
+            <String CONTENT="וישובו"
+                    ID="eSc_string_57"
+                    HPOS="776.0"
+                    VPOS="2843.0"
+                    WIDTH="1908.0"
+                    HEIGHT="161.0"></String>
+            <String CONTENT="לא"
+                    ID="eSc_string_58"
                     HPOS="776.0"
                     VPOS="2843.0"
                     WIDTH="1908.0"
