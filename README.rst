@@ -1,7 +1,7 @@
 Description
 ===========
 
-These are 3 examples of the proposed reading order mechanism for ALTO 4.x.
+These are 3 examples of the now officially released reading order mechanism for ALTO 4.3.
 
 Newspaper
 ---------
